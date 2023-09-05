@@ -1,14 +1,7 @@
-/*----------------------2哈社区---------------------*/
-/*----------------https://www.2ha.cc---------------*/
-/*------论坛里有各种安卓软件、电脑软件及TV接口--------*/
-
-// 配置地址 简易设定流程
-// 设置 --> 配置地址 --> 输入 https://tv.2ha.cc --> 点击确定 --> 返回首页
-
 {
   "spider":"https://tv.2ha.cc/jar/tvbox.png;md5;808da8066ef19ba41dc4966f588e938d",
   "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
-  "lives": [{"group": "redirect","channels": [{"name": "live","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9yYXcuaXFpcS5pby8yaGFjYy9UVkJveC9tYWluL2xpdmUvbGl2ZS50eHQ="]}]}],
+  "lives": [{"group": "redirect","channels": [{"name": "live","urls": ["./drpy/tvlive", "proxy://do=live&type=txt&ext=aHR0cHM6Ly9yYXcuaXFpcS5pby8yaGFjYy9UVkJveC9tYWluL2xpdmUvbGl2ZS50eHQ="]}]}],
   "sites":[
     {"key":"drpy_js_豆瓣","name":"豆瓣[DRPY]","type":3,"api":"https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/drpy2.min.js","ext":"https://tv.2ha.cc/drpy/js/drpy.js"},
     {"key":"csp_Nmys","name":"农民","type":3,"api":"csp_Nmys","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://tv.2ha.cc/json/nmys.json"},
